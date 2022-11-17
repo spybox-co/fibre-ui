@@ -31,6 +31,7 @@ export default {
         40,
         48,
       ],
+      defaultValue: 16,
       control: { type: 'select' },
     },
   }
