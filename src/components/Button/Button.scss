@@ -1,8 +1,8 @@
 @import '../../styles/variables.scss';
 
 
-.spbx--button {
-  font-size: 1rem; //0.875rem
+.fbr--button {
+  font-size: 1rem;
   font-weight: 400;
   line-height: 1.29;
   letter-spacing: 0.16px;
@@ -19,7 +19,7 @@
   text-decoration: none;
   vertical-align: top;
   border-radius: 0px;
-  outline: 2px solid transparent;
+  outline: 1px solid transparent;
   outline-offset: -3px;
   cursor: pointer;
   transition: all 70ms cubic-bezier(0, 0, 0.38, 0.9) 0s;
@@ -81,7 +81,10 @@
     }
   }
   &--ghost {
-    color: $white;
+    &[data-mode="dark"] {
+      color: $white;
+    }
+    color: $gray-100;
     background-color: transparent;
     &:hover {
       background-color: rgba($gray-50, 0.12);
@@ -124,12 +127,12 @@
 }
 
 
-.spbx--button--icon-only {
+.fbr--button--icon-only {
   min-width: 3rem;
   padding: 0.875rem;
-  // padding-right: 0.9375rem;
-  // padding-left: 0.9375rem;
-  .spbx--button__icon {
+  /* padding-right: 0.9375rem;
+  padding-left: 0.9375rem; */
+  .fbr--button__icon {
     position: static;
 
   }

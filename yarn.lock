@@ -8083,6 +8083,11 @@ react-refresh@^0.11.0:
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.11.0.tgz#77198b944733f0f1f1a90e791de4541f9f074046"
   integrity sha512-F27qZr8uUqwhWZboondsPx8tnC3Ct3SxZA3V5WyEvujRyyNv0VYPhoBg1gZ8/MV5tubQp76Trw8lTv9hzRBa+A==
 
+react-swm-icon-pack@^1.0.14:
+  version "1.0.14"
+  resolved "https://registry.yarnpkg.com/react-swm-icon-pack/-/react-swm-icon-pack-1.0.14.tgz#a3d0ae6e52fdababe991fbebb2bf93665c072b2e"
+  integrity sha512-IFmc4rjXdna4sa3QwlMJzotWQZVErr4gIjq4hrsoP3AvFRPq5AjBJWera9E2C/2pzmAAxNNs7kqiIhNT9xsi0g==
+
 react@^18.2.0:
   version "18.2.0"
   resolved "https://registry.yarnpkg.com/react/-/react-18.2.0.tgz#555bd98592883255fa00de14f1151a917b5d77d5"

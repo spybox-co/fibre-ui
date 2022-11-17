@@ -1,0 +1,38 @@
+@import '../../styles/variables.scss';
+
+.fbr--bumper {
+  display: flex;
+  padding: 1rem;
+  color: $white;
+  min-height: 10rem;
+  min-width: calc(100% / 4);
+  transition: 150ms;
+  font-size: 125%;
+  cursor: pointer;
+  &.hover {
+    min-height: 20rem;
+    font-size: 150%;
+  }
+
+  &--default {
+    background-color: $gray-80;
+
+    &:hover {
+      background-color: darken($primary-color, 10%);
+    }
+    &:active {
+      background-color: darken($primary-color, 20%);
+    }
+  }
+  
+  &--primary {
+    background-color: $primary-color;
+
+    &:hover {
+      background-color: $gray-80-hover;
+    }
+    &:active {
+      background-color: $gray-60;
+    }
+  }
+}
